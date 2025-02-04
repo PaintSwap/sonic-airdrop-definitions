@@ -39,17 +39,14 @@ Once installed, the `SonicAirdropConstants`, `SonicAirdropTypes`, and `NONE` typ
 
 ```ts
 import { SonicAirdropConstants, SonicAirdropTypes, NONE } from '@paintswap/sonic-airdrop-definitions'
-const { LOG } = SonicAirdropConstants
-
-const MAPLE_LOG = SonicAirdropConstants.MAPLE_LOG
+const { Order, PriceLevel } = SonicAirdropTypes
 ```
 
 
 It is also possible to import specific items directly.
 
 ```ts
-import { LOG } from '@paintswap/sonic-airdrop-definitions/constants'
-import { Skill } from '@paintswap/sonic-airdrop-definitions/types'
+import { Order, PriceLevel } from '@paintswap/sonic-airdrop-definitions/types'
 ```
 
 
