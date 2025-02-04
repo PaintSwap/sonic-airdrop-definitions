@@ -83,3 +83,8 @@ export class OrderSoldAggregator {
   totalCost: string = '0'
   totalQuantity: string = '0'
 }
+
+export enum OrderSide {
+  Buy,
+  Sell,
+}
