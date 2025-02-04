@@ -1,0 +1,48 @@
+{
+  "name": "@paintswap/sonic-airdrop-definitions",
+  "version": "0.0.0",
+  "description": "Types and constants for Sonic Airdrop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaintSwap/sonic-airdrop-definitions.git"
+  },
+
+  "keywords": [
+    "Paintswap",
+    "Sonic",
+    "Airdrop",
+    "javascript",
+    "typescript",
+    "assemblyscript",
+    "webassembly",
+    "game",
+    "web3",
+    "thegraph"
+  ],
+  "module": "src/index.mjs",
+  "ascMain": "src/index.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "yarn build:tsc",
+    "build:tsc": "tsc",
+    "build:asc": "asc --target release",
+    "build:asc:debug": "asc --target debug",
+    "prepare": "yarn build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Paintswap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaintSwap/sonic-airdrop-definitions/issues"
+  },
+  "homepage": "https://github.com/PaintSwap/sonic-airdrop-definitions",
+  "devDependencies": {
+    "run-script-os": "^1.1.6",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "assemblyscript": "0.19.10"
+  }
+}
