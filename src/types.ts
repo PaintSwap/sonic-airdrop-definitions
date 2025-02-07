@@ -84,6 +84,13 @@ export class OrderSoldAggregator {
   totalQuantity: string = '0'
 }
 
+export class CoreData {
+  id: string = ''
+  quote: string = ''
+  quantityTick: string = '0'
+  orderBookFeeBps: string = '0'
+}
+
 export enum OrderSide {
   Buy,
   Sell,
