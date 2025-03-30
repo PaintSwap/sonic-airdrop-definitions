@@ -1,3 +1,4 @@
+// From the API
 export class Order {
   id: string = ''
   orderId: string = '0'
@@ -94,4 +95,25 @@ export class CoreData {
 export enum OrderSide {
   Buy,
   Sell,
+}
+
+// Smart contracts
+export class LimitOrder {
+  side: OrderSide
+  tokenId: string = ''
+  price: string = ''
+  quantity: string = ''
+}
+
+export class MarketOrder {
+  side: OrderSide = OrderSide.Buy
+  tokenId: string = ''
+  quantity: string = ''
+  totalCost: string = ''
+}
+
+export class CancelOrder {
+  side: OrderSide = OrderSide.Buy
+  tokenId: string = ''
+  price: string = ''
 }
