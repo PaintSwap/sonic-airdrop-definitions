@@ -60,6 +60,7 @@ export class SoldHistory {
   tokenId: string = '0'
   amount: string = '0'
   price: string = '0'
+  cost: string = '0'
   maker: string = ''
   taker: string = ''
   timestamp: string = '0'
