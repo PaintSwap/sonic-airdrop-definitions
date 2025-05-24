@@ -5,6 +5,8 @@ export class Order {
   tokenId: string = '0'
   amount: string = '0'
   amountRemaining: string = '0'
+  cost: string = '0'
+  costRemaining: string = '0'
   price: string = '0'
   isBuyOrder: boolean = false
   maker: string = ''
