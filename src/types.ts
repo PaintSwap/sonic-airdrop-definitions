@@ -70,15 +70,6 @@ export class SoldHistory {
   quote: string = ''
 }
 
-export class OrderSoldData {
-  id: string = ''
-  tokenId: string = '0'
-  timestamp: string = '0'
-  cost: string = '0'
-  quantity: string = '0'
-  quote: string = ''
-}
-
 export class OrderSoldAggregator {
   id: string = ''
   tokenId: string = '0'
@@ -86,6 +77,10 @@ export class OrderSoldAggregator {
   timestamp: string = '0'
   totalCost: string = '0'
   totalQuantity: string = '0'
+  firstPrice: string = '0'
+  lastPrice: string = '0'
+  minPrice: string = '0'
+  maxPrice: string = '0'
 }
 
 export class CoreData {
