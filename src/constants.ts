@@ -5,7 +5,7 @@ export const SONIC_AIRDROP_ORDERBOOK_S_ADDRESS = ''
 export const SONIC_AIRDROP_ORDERBOOK_USDC_ADDRESS = ''
 export const SONIC_AIRDROP_ORDERBOOK_SCUSD_ADDRESS = ''
 
-export const allOrderbooks = [
+export const allOrderbookContracts = [
   SONIC_AIRDROP_ORDERBOOK_S_ADDRESS,
   SONIC_AIRDROP_ORDERBOOK_USDC_ADDRESS,
   SONIC_AIRDROP_ORDERBOOK_SCUSD_ADDRESS,
@@ -16,12 +16,12 @@ export const SONIC_BLAZE_AIRDROP_ORDERBOOK_S_ADDRESS = '0xf1BBeD9d5471aFB8CC3435
 export const SONIC_BLAZE_AIRDROP_ORDERBOOK_USDC_ADDRESS = '0x8255aED6F286d05A82E351bdFe9081e22CD178B4'
 export const SONIC_BLAZE_AIRDROP_ORDERBOOK_SCUSD_ADDRESS = '0x1f92c566E50A22eF5F5344aeB6E30291090aD80A'
 
-export const allOrderbooksBlaze = [
+export const allOrderbookBlazeContracts = [
   SONIC_BLAZE_AIRDROP_ORDERBOOK_S_ADDRESS,
   SONIC_BLAZE_AIRDROP_ORDERBOOK_USDC_ADDRESS,
   SONIC_BLAZE_AIRDROP_ORDERBOOK_SCUSD_ADDRESS,
 ]
 
-export const quotes = ['s', 'usdc', 'scusd']
+export const quotes = ['s', 'usdc', 'scusd'] // Same order as the orderbook arrays
 
 export default NONE
