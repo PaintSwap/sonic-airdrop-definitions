@@ -36,6 +36,7 @@ export class TokenInfo {
   tokenId: string = '0'
   tick: string = '0'
   minQuantity: string = '0'
+  isTradeable: boolean = false
   lastTradedPrice: string = '0'
   lastTradedQuantity: string = '0'
   lastTradedTimestamp: string = '0'
