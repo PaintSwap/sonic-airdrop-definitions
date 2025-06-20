@@ -102,6 +102,7 @@ export class LimitOrder {
   tokenId: string = ''
   price: string = ''
   quantity: string = ''
+  postOnly: boolean = false
 }
 
 export class MarketOrder {
@@ -109,6 +110,7 @@ export class MarketOrder {
   tokenId: string = ''
   quantity: string = ''
   totalCost: string = ''
+  useExactQuantity: boolean = true // If false then quantity is treated as minQuantity, useful for market order buying
 }
 
 export class CancelOrder {
