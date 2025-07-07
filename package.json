@@ -1,6 +1,6 @@
 {
   "name": "@paintswap/sonic-airdrop-definitions",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Types and constants for Sonic Airdrop",
   "repository": {
     "type": "git",
