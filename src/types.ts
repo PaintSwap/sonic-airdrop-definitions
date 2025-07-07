@@ -96,6 +96,21 @@ export enum OrderSide {
   Sell,
 }
 
+export class BurnedAirdropData {
+  id: string = ''
+  tokenId: string = '0'
+  amount: string = '0'
+  timestamp: string = '0'
+}
+
+export class BurnedAirdropDayData {
+  id: string = ''
+  tokenId: string = '0'
+  amount: string = '0'
+  burnEvents: string = '0'
+  timestamp: string = '0'
+}
+
 // Smart contracts
 export class LimitOrder {
   side: OrderSide
