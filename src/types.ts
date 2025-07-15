@@ -114,11 +114,12 @@ export class BurnedAirdropDayData {
 
 // Smart contracts
 export class LimitOrder {
-  side: OrderSide
+  side: OrderSide = OrderSide.Buy
   tokenId: string = ''
   price: string = ''
   quantity: string = ''
-  postOnly: boolean = false
+  onlyPost: boolean = false
+  onlyExactPriceIfMaker: boolean = false // If true, the order will only be placed if the price is exactly the same as the current best price for that side
 }
 
 export class MarketOrder {
@@ -127,10 +128,4 @@ export class MarketOrder {
   quantity: string = ''
   totalCost: string = ''
   useExactQuantity: boolean = true // If false then quantity is treated as minQuantity, useful for market order buying
-}
-
-export class CancelOrder {
-  side: OrderSide = OrderSide.Buy
-  tokenId: string = ''
-  price: string = ''
 }
