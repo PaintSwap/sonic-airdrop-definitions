@@ -88,7 +88,8 @@ export class CoreData {
   id: string = ''
   quote: string = ''
   quantityTick: string = '0'
-  orderBookFeeBps: string = '0'
+  orderBookFeeMakerBps: string = '0'
+  orderBookFeeTakerBps: string = '0'
 }
 
 export enum OrderSide {
