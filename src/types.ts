@@ -6,7 +6,6 @@ export class Order {
   amount: string = '0'
   amountRemaining: string = '0'
   cost: string = '0'
-  costRemaining: string = '0'
   price: string = '0'
   isBuyOrder: boolean = false
   maker: string = ''
