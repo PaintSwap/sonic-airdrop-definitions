@@ -68,6 +68,7 @@ export class SoldHistory {
   isBuyOrder: boolean = false
   hash: string = ''
   quote: string = ''
+  orderId: string = ''
 }
 
 export class OrderSoldAggregator {
