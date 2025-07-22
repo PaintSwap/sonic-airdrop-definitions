@@ -112,6 +112,22 @@ export class BurnedAirdropDayData {
   timestamp: string = '0'
 }
 
+
+export class ClaimedAirdropData {
+  id: string = ''
+  tokenId: string = '0'
+  amount: string = '0'
+  timestamp: string = '0'
+}
+
+export class ClaimedAirdropDayData {
+  id: string = ''
+  tokenId: string = '0'
+  amount: string = '0'
+  claimEvents: string = '0'
+  timestamp: string = '0'
+}
+
 // Smart contracts
 export class LimitOrder {
   side: OrderSide = OrderSide.Buy
